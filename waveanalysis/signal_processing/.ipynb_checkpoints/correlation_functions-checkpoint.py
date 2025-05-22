@@ -16,8 +16,8 @@ def calc_indv_ACF_workflow(
         np.ndarray: The calculated individual ACFs.
     '''
     # Extract image properties from the dictionary
-    num_channels = img_props['num_channels'] #For us 1
-    num_bins = img_props['num_bins'] 
+    num_channels = img_props['num_channels']
+    num_bins = img_props['num_bins']
     num_frames = img_props['num_frames']
     acf_peak_thresh = img_props['peak_thresh']
     analysis_type = img_props['analysis_type']
